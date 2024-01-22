@@ -115,7 +115,7 @@ public class OneClickGame {
 		choicePanel.setLayout(new GridLayout(2,4));
 		con.add(choicePanel);
 		
-		imagePanel.setBounds(100,100,1350,400);
+		imagePanel.setBounds(100,100,1350,300);
 		imagePanel.setBackground(Color.decode("#C4A484"));
 		con.add(imagePanel);
 		
