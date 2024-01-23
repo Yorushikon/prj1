@@ -860,7 +860,7 @@ public class Dochoice implements ActionListener {
         	switch (urChoice) {
     		case "p1": 
     			if (bossHP < 1) {
-    				defeat();
+    				win();
     			}
     			else {
     			battack(); 
@@ -873,7 +873,7 @@ public class Dochoice implements ActionListener {
         	switch (urChoice) {
     		case "p1": 
     			if (monsterHP < 1) {
-    				win();
+    				defeat();
     			}
     			else {
     			mattack(); 
