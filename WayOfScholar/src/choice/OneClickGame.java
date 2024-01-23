@@ -679,7 +679,7 @@ public class OneClickGame {
 		pos = "ex1";
 		textArea.setText("You exchange 2 hp for 1 shard");
 		playershards = playershards +1;
-		shardnumber.setText("" + shardnumber);
+		shardnumber.setText("" + playershards);
 		playerhp = playerhp - 2;
 		hpnumber.setText(""+ playerhp);
 		
@@ -690,7 +690,7 @@ public class OneClickGame {
 		pos = "ex10";
 		textArea.setText("You exchange 10 hp for 5 shard");
 		playershards = playershards +5;
-		shardnumber.setText("" + shardnumber);
+		shardnumber.setText("" + playershards);
 		playerhp = playerhp - 10;
 		hpnumber.setText(""+ playerhp);
 		
@@ -701,7 +701,7 @@ public class OneClickGame {
 		pos = "ex1";
 		textArea.setText("You exchange 100 hp for 50 shard");
 		playershards = playershards +50;
-		shardnumber.setText("" + shardnumber);
+		shardnumber.setText("" + playershards);
 		playerhp = playerhp - 100;
 		hpnumber.setText(""+ playerhp);
 		
